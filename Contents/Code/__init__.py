@@ -116,7 +116,7 @@ def setPrefs():
 
 # Builds the main menu
 @handler(PREFIX, TITLE)
-def MainMenu():
+def MainMenu(*args, **kwargs):
 
     if debug:
         Log.Debug('Client: ' + str(Client.Product))
